@@ -40,10 +40,10 @@ $('document').ready(function(){
 
 // function that corrects the displayed date if e.g. january 1: 1.1. -> 01.01.
 function create_the_date(day, month, year) {
-  if(month<10) {
+  if(month.toString().length < 2) {
     month = "0"+month;
   }
-  if(day<10) {
+  if(day.toString().length < 2) {
     day = "0"+day;
   }
   return((day) + "." + (month) + "." + (year));
