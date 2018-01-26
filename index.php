@@ -5,7 +5,6 @@
     <link rel="icon" href="europe.png">
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="https://code.jquery.com/jquery-latest.js"></script>
-    <script type="text/javascript" src="hello.js"></script>
     <script type="text/javascript" src="script.js"></script>
   </head>
 
@@ -29,12 +28,9 @@
       Datum auf das wir warten: <span id="future_date"></span>
     </p>
 
-    <p>
-      So lange dauert das Ganze noch:
-    </p>
+    <p id='result'>
+      So lange dauert das Ganze noch: <br /><br />
 
-
-      <p>
       <span id="num_of_days"></span> Tage!
       </p>
     </div>
