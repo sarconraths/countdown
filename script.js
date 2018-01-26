@@ -88,21 +88,5 @@ function count_the_days(date1, date2){
       console.log("month has 30 days");
     }
 
-
-    // for(date1["m"]; date2["m"]; date1["m"]++){
-    //     if(months31.indexOf(date1["m"]) != -1) {
-    //       //define what to do if the current month has 31 days
-    //         for(date1["d"]; 31; date1["d"]++){
-    //           days_to_go++;
-    //         }
-    //     }else if(months30.indexOf(date1["m"]) != -1){
-    //         //define what to do if current month has 30 days
-    //         for(date1["d"]; 30; date1["d"]++){
-    //           days_to_go++;
-    //         }
-    //     }
-    // }
-    date1["m"]++;
-    date1["d"]=1;
   }
 }

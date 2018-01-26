@@ -38,23 +38,5 @@
       <span id="num_of_days"></span> Tage!
       </p>
     </div>
-
-
-    <!-- <h1>Sag hallo</h1>
-
-    <form action="post.php" method="POST">
-    <p>Name</p> <input type="text" name="name">
-    <p>Alter</p> <input type="text" name="age">
-    <p>Wie soll man dich ansprechen?</p>
-    <fieldset>
-      <input type="radio" id="sie" name="anrede" value="Sie" />
-      <label for="sie">Sie</label>
-      <input type="radio" id="du" name="anrede" value="Du" />
-      <label for="du">Du</label>
-    </fieldset>
-
-    <input type="submit" value="Send"><input type="reset" value="Clear">
-    </form> -->
-
   </body>
 </html>
